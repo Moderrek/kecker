@@ -58,7 +58,7 @@ def key_listener():
 
 def process_cmd(cmd: str):
   splited = cmd.split(' ')
-  label = splited[0]
+  label = splited[0].lower()
   args = splited[1::]
   if label not in commands:
     print("Unknown command use /help.")
@@ -149,9 +149,9 @@ def stop_tapping():
 
 def register_commands():
   register_command(make_cmd("help", lambda args: print("These are Kecker commands:\n"
-                                                       " 1. start : Stars tapping the key\n"
+                                                       " 1. start : Starts tapping the key\n"
                                                        " 2. stop : Stops tapping the key\n"
-                                                       " 3. end : To kill program\n"
+                                                       " 3. end : Kills the program\n"
                                                        " 4. speed <per sec> : Sets/Gets the key tap per sec\n"
                                                        " 5. toggle <character> : Sets/Gets the toggle key\n"
                                                        " 6. key <character> : Sets/Gets the tap key\n"
