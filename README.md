@@ -16,3 +16,16 @@ Current tapping key is i
 Set tap/sec to 2.0
 ```
 Enjoy usage :)
+
+# How to run
+
+ * Download [Python](https://www.python.org/downloads/).
+ * Run downloaded file.
+
+# Usage
+
+Kecker is terminal program with commands.
+1. Set the clicking key "a" by command ``key a``
+2. Set the clicking speed (x per sec) by ``speed x``
+3. Start by command ``start`` (end by ``stop``) or set toggle key ``toggle .``
+4. Then tap the "." to start end clicking
