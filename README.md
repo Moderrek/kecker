@@ -1,5 +1,8 @@
 # Kecker
 
+![GitHub License](https://img.shields.io/github/license/Moderrek/kecker)
+![GitHub all releases](https://img.shields.io/github/downloads/Moderrek/kecker/total)
+
 The Python-based keyboard auto clicker with commands system.
 
 # Quick start
