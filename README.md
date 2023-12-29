@@ -6,7 +6,8 @@ The Python-based keyboard auto clicker with commands system.
 
 ```shell
 git clone https://github.com/Moderrek/kecker.git
-kecker/
+cd kecker/
+pip install pynput
 python main.py
 > toggle .
 Set toggle key to .
@@ -20,7 +21,8 @@ Enjoy usage :)
 # How to run
 
  * Download [Python](https://www.python.org/downloads/).
- * Run downloaded file.
+ * Execute in terminal ``pip install pynput``
+ * Then run downloaded file.
 
 # Usage
 
